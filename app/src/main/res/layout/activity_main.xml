@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danielhwang.buttoncounter2.MainActivity">
+
+
+
+        <Button
+            android:id="@+id/Increment"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:text="Increment"
+            tools:layout_editor_absoluteY="350dp"
+            tools:layout_editor_absoluteX="30dp"
+            />
+        <Button
+            android:id="@+id/Decrement"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:text="Decrement"
+            tools:layout_editor_absoluteY = "350dp"
+            tools:layout_editor_absoluteX = "214dp"
+            />
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Reset"
+            tools:layout_editor_absoluteY = "450dp"
+            tools:layout_editor_absoluteX = "214dp"
+            />
+
+        <TableLayout
+            android:padding="10dip"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_heitht="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/number"
+                    android:text="Count: "
+                    android:paddingRight="10dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
